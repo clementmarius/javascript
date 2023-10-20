@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .main-title {
     color: #480fa3;
     text-align: center;
@@ -17,4 +18,25 @@
 
 table {
     text-align: center;
+=======
+.main-title {
+    color: #480fa3;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.elements-title {
+    color: #563c81;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.basic-infos {
+    display: flex;
+    justify-content: space-around;
+}
+
+table {
+    text-align: center;
+>>>>>>> 00a32115d0cebbd18cd8d730fa1249cc4652c35a
 }
