@@ -1,0 +1,16 @@
+{
+    "nom" : "Jackson",
+    "prenom" : "Micheal",
+    "adresse" : {
+        "codepostal" : "44000",
+        "ville" : "Los Angeles"
+    },
+    "adressemail" : [
+        {
+            "mail" : "marius@"
+        },
+        {
+            "mail" : "marius@"
+        }
+    ]
+}

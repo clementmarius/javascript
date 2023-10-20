@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="event.js"></script>
+
+
+    <style>
+        .mt20{
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Gestion des évenements</h1>
+    <h2>Nombre à deviner (0 à 100)</h2>
+
+    <div> <input type="checkbox" id="triche">
+        <label for="triche">Mode triche</label>
+    </div>
+
+
+
+    <div class="mt20">
+        <label for="nbUser">Proposition : </label>
+        <input type="number" id="nbUser" min="0" max="100">
+        <button id="btn">Valider</button>
+    </div>
+
+
+
+    <p id="resultat"></p>
+
+</body>
+
+</html>
